@@ -1,0 +1,52 @@
+.container{
+    min-height: 84.3vh;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 55px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.myinput{
+    outline: none;
+    display: block;
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    border: .5px solid rgb(4, 81, 170);
+    border-radius: 10px;
+}
+.btn{
+    padding: 4px 25px;
+    font-size: 16px;
+    border: 1px solid rgb(4, 81, 170);
+    color: white;
+    background-color: rgb(3, 42, 87);
+    border-radius: 10px;
+    font-weight: bold;
+}
+.btn:hover{
+    padding: 4px 25px;
+    font-size: 16px;
+    border: 1px solid rgb(4, 81, 170);
+    color: rgb(3, 42, 87);
+    background-color: white;
+    border-radius: 10px;
+    outline: none;
+}
+.last{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,46 @@
+doctype html 
+html
+    head 
+        title 僕のダンスアカデミア-Best Dance Acadamy in patna
+        style
+            include ../static/style.css 
+    body 
+        nav#navbar.top
+            ul
+                li #[a(href="/") Home]
+                li #[a(href="/") About ]
+                li #[a(href="/") Services ]
+                li #[a(href="/") Class Info]
+                li #[a(href="/") Contact Us ]
+        section#introSection 
+            div#jap 僕のダンスアカデミア
+            div.small Go Beyond
+            div.animated !!PLUS ULTRA!!
+        section#missionsection 
+            h3 Our Missions
+            div.card 
+                h4 Dance You Mean Like
+                div.img
+                    img(src="/static/images/img3.png" height="150px" width="200px")
+                    div.content Make you have fun while doing the thing you love and also teach you how to have fun dancing like a pro with smooth moves and elegant smile. Have fun but this time with style
+            div.card 
+                h4 Dance Perfection
+                div.img
+                    img(src="/static/images/img2.png" height="150px" width="200px")
+                    div.content Make you learn various dance styles and countless steps with perfection to make you dance like a pro in very small amount of time and in a very reasonable price
+            div.card 
+                h4 Best Teaching
+                div.img
+                    img(src="/static/images/img1.png" height="150px" width="200px")
+                    div.content Make you learn from the best techniques and teacheing styles from the best teachers with years of expirence
+        section#sponsersection 
+            h3 Our Sponsers
+            div.logospon
+                img(src="/static/images/facebook.png" height="110px" )
+                img(src="/static/images/insta.png" height="110px" )
+                img(src="/static/images/whatsapp.png" height="110px")
+                img(src="/static/images/logo main.png" height="110px")
+        footer#footer
+            div Copyright © 2021 僕のダンスアカデミア｜All Rights Reserved
+        script 
+            include ../static/index.js

@@ -1,0 +1,48 @@
+body{
+    background: no-repeat center / cover url('https://source.unsplash.com/1600x900/?dance');
+}
+h1{
+    background-color: rgba(255, 255, 255, 0.377);
+    width: 30%;
+    margin: auto;
+    margin-top: 15px;
+    border: 2px solid #ccc;
+    box-shadow: 0 0 5px 4px rgba(255, 2, 255, 0.795);
+    margin-bottom: 20px;
+    padding: 0;
+    border-radius: 20px;
+    font-size: 58px;
+    text-align: center;
+}
+/* .container::before{
+    position: absolute;
+    content: "";
+    background-color: white;
+    opacity: 0.85;
+    z-index: -1;
+    border-radius: 10px;
+    height: 105vh;
+    width: 70%;
+    margin: auto;
+} */
+.container{
+    background-color: rgba(255, 255, 255, 0.87);
+    margin-top: 15px;
+    width: 70%;
+    margin: 10px auto;
+    border: 2px solid #ccc;
+    box-shadow: 0 0 10px 4px hotpink;
+    /* transition: background-color; */
+    border-radius: 15px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+    
+}
+img{
+    height: 300px;
+    width: auto;
+}
